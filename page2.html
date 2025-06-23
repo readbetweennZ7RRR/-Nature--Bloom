@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+  <title> ReadBetween</title>
+</head>
+<body>
+
+
+<section class="pro">
+<div class="card">
+<a href="https://youtric24.com/beauty365/#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+    <img src="photos/7Z17OUMM.png" alt="">
+</a>
+
+
+<h2>price:10.97$
+</h2>
+<a href="https://youtric24.com/beauty365/#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+</a>
+</div>
+
+
+
+
+<div class="card">
+<a href="https://yarahaircare.com#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">    
+  <img src="photos/N7MAO0TH.png" alt="">
+</a>
+
+
+
+<h2>price:17.30$
+</h2>
+<a href="https://yarahaircare.com#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+
+<section class="pro">
+<div class="card">
+<a href="https://www.vitalforcedetox.com/#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+    <img src="photos/R4L3FUUK.png" alt="">
+
+</a>
+
+
+
+<h2>price:68.40$
+</h2>
+<a href="https://www.vitalforcedetox.com/#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+  <p class="buy">buy now </p>
+</a>
+</div>
+
+<div class="card">
+<a href="https://tryrespilean.com/news-research#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+    <img src="photos/4GTAN55A.jpg" alt="">
+</a>
+
+
+<h2>price:51.64$
+</h2>
+<a href="https://tryrespilean.com/news-research#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+<section class="pro">
+<div class="card">
+<a href="https://partners.primalforce.net/sp/shield-vsl-2#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+      <img src="photos/WNCF2R4W.png" alt="">
+
+</a>
+
+
+
+<h2>price:37.39$
+</h2>
+<a href="https://partners.primalforce.net/sp/shield-vsl-2#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+<div class="card">
+<a href="https://secure.nervefresh24.com/index-nf-ds#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+    <img src="photos/ILRWNJMV.png" alt="">
+
+</a>
+
+
+
+<h2>price:127.61$
+</h2>
+
+<a href="https://secure.nervefresh24.com/index-nf-ds#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+<p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+<section class="prod">
+<div class="card">
+<a href="https://www.advancedbionutritionals.com/DS24/Advanced-Memory/Secret-Of-A-Brain/SL-V1.htm#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+    <img src="photos/Z7GY27KT.png" alt="">
+
+
+</a>
+
+
+
+<h2>price:92.24$
+</h2>
+<a href="https://www.advancedbionutritionals.com/DS24/Advanced-Memory/Secret-Of-A-Brain/SL-V1.htm#aff=ZEZOMOto" target="_blank" rel="noopener noreferrer">
+
+  <p class="buy">buy now </p>
+
+</a>
+</div>
+
+<div class="card">
+<a href="https://www.digistore24.com/redir/442614/ZEZOMOto/" target="_blank" rel="noopener noreferrer">
+    <img src="photos/59CYXE62.png" alt="">
+
+
+</a>
+
+
+
+<h2>price:76.76$
+</h2>
+<a href="https://www.digistore24.com/redir/442614/ZEZOMOto/" target="_blank" rel="noopener noreferrer">
+
+  <p class="buy">buy now </p>
+
+</a>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+</section>
+
+<div class="pagination" id="pagination">
+  <div class="pagination-inner">
+    <a href="index.html" class="active">1</a>
+    <a href="page2.html">2</a>
+    <a href="page3.html">3</a>
+    <a href="page4.html">4</a>
+    <a href="page5.html">5</a>
+  </div>
+</div>
+
+
+
+<script>
+  const pageLinks = document.querySelectorAll('.pagination a');
+
+  // استخرج رقم الصفحة الحالي من اسم الملف
+  const path = window.location.pathname;
+  const currentPageNumber = path.match(/page(\d+)\.html/)?.[1];
+
+  pageLinks.forEach(link => {
+    if (link.textContent === currentPageNumber) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+</script>
+
+
+<script src="page.js"></script>
+
+</body>
+</html>
